@@ -1,8 +1,8 @@
-const express = require('espress')
+const express = require('express')
 
-const add = express()
+const app = express()
 
-app.get('/', (req,res) => {
+app.get('/', (req, res) => {
     res.send('Hi there!')
 })
 
