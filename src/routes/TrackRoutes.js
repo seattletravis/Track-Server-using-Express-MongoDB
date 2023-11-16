@@ -13,3 +13,6 @@ router.get('/tracks', async (req, res) => {
 
   res.send(tracks)
 })
+
+
+module.exports = router
